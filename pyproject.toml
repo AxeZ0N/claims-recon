@@ -1,0 +1,13 @@
+[project]
+name = "claims-recon"
+version = "0.1.0"
+description = "Deterministic pipeline: shared-drive workbooks in, audited monthly claims report out."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pypdf>=4.0",
+    "python-calamine>=0.8.3",
+    "rapidfuzz>=3.0",
+]
